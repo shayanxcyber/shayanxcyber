@@ -84,23 +84,23 @@ Here is a curated selection of my best work. Each project has its own repository
 
 *   **🔐 Cryptography: Secure HTTPS Server & PKI**
     *   *Created a private Certificate Authority (CA) with OpenSSL to issue a valid TLS certificate and deploy a secure HTTPS web server.*
-    *   **[View Project & Report](https://github.com/your-username/HTTPS-Server-PKI-Project)**
+    *   **[View Project & Report](https://github.com/shayanxcyber/HTTPS-Server-PKI-Project)**
 
 *   **⛓️ Cryptography: Private Ethereum Blockchain**
     *   *Deployed a private Proof-of-Work Ethereum blockchain from scratch using `geth`, including creating a genesis block and executing transactions.*
-    *   **[View Project & Report](https://github.com/your-username/Private-Ethereum-Blockchain-Project)**
+    *   **[View Project & Report](https://github.com/shayanxcyber/Private-Ethereum-Blockchain-Project)**
 
 *   **☁️ Cloud Infrastructure: VMware vSphere Labs**
     *   *A collection of labs building a virtual data center with ESXi, vCenter, iSCSI, vMotion, and High Availability.*
-    *   **[View All Labs](https://github.com/your-username/VMware-vSphere-Lab-Projects)**
+    *   **[View All Labs](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects)**
 
 *   **🗃️ Database Design: Real Estate Platform**
     *   *Designed and implemented a relational database from scratch, including ERD modeling and SQL implementation.*
-    *   **[View Project & SQL Schema](https://github.com/your-username/Real-Estate-Database-Design-Project)**
+    *   **[View Project & SQL Schema](https://github.com/shayanxcyber/Real-Estate-Database-Design-Project)**
     
 *   **📚 All University Coursework**
     *   *A central repository containing summaries and links to all major projects from my degree.*
-    *   **[View University Portfolio](https://github.com/your-username/University-Cybersecurity-Projects)**
+    *   **[View University Portfolio](https://github.com/shayanxcyber/University-Cybersecurity-Projects)**
 
 ---
 
