@@ -1,7 +1,8 @@
 # Shayan Ali
 
-Final-year Bachelor of Cybersecurity student at the University of Technology Sydney, building at the intersection of
-secure software, technical operations and practical security analysis.
+I'm a final-year Bachelor of Cybersecurity student at the University of Technology Sydney. I'm interested in both
+cybersecurity and software engineering, especially work where I can understand how a system behaves, find what is
+going wrong and improve it.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayan-ali-776590339/)
 ![Location](https://img.shields.io/badge/Based_in-Australia-2F855A?style=flat-square)
@@ -9,15 +10,17 @@ secure software, technical operations and practical security analysis.
 
 ## About
 
-I enjoy tracing a problem from the user experience down through application behaviour, data and security controls,
-then turning the result into something useful and maintainable. My recent experience at Zip combined regulated
-financial-services operations with an internal Software Developer trial, where I progressed from identifying a
-frontline workflow problem and building a JavaScript proof of concept to contributing Angular and TypeScript features
-through REST integrations, tests, merge requests and peer review.
+I've spent years building, upgrading and troubleshooting PCs, and I tend to learn by following a problem until I
+understand what the system is actually doing. That same practical approach now carries across Windows and Linux,
+networking, web applications, security and code.
 
-Alongside software delivery, my university work covers web access control, network traffic analysis, PKI and TLS,
-virtual infrastructure, database design, and digital investigations involving forensic-image validation, Windows and
-NTFS artefacts, timelines and cross-source evidence correlation.
+My recent experience at Zip let me apply that approach in two settings: regulated financial-services operations and
+an internal Software Developer trial. I identified a recurring frontline problem, built a JavaScript proof of concept
+and then worked on Angular and TypeScript features using REST APIs, tests, merge requests and peer review.
+
+At university, I have worked across web access control, network traffic analysis, PKI and TLS, virtual infrastructure,
+database design, and digital investigations using forensic images, hashes, Windows and NTFS artefacts, timelines and
+evidence from multiple sources. I learn best by building something I can test, inspect and explain.
 
 - **Bachelor of Cybersecurity, UTS** — final year, expected 2027
 - **GPA:** 6.60/7.00
@@ -30,18 +33,17 @@ NTFS artefacts, timelines and cross-source evidence correlation.
 
 [![LUNEA storefront](https://raw.githubusercontent.com/shayanxcyber/E-commerce-Fullstack-Website/main/docs/images/lunea-storefront.png)](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)
 
-An individual full-stack commerce project with a polished React storefront, Express and MongoDB services, JWT
-authentication, server-enforced role and ownership checks, customer ordering and administrator workflows. Its public
-static demo uses clearly labelled synthetic in-browser data, while the repository preserves the complete local
-application.
+I built this full-stack commerce project individually. It combines a React storefront with Express and MongoDB, JWT
+authentication, server-enforced role and ownership checks, customer ordering and administrator workflows. The public
+demo uses clearly labelled synthetic browser data; the repository contains the complete local application.
 
 **[Open the live demo](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)** ·
 **[View the source and architecture](https://github.com/shayanxcyber/E-commerce-Fullstack-Website)**
 
 ### IDOR Vulnerability Analysis and Defence
 
-A co-authored security case study analysing an Insecure Direct Object Reference vulnerability, its business impact
-and a defence-in-depth design using server-side object authorisation, least privilege and verification controls.
+In this two-person project, we analysed an Insecure Direct Object Reference vulnerability, explained its business
+impact and designed layered controls around server-side object authorisation, least privilege and verification.
 
 **[View the project and report](https://github.com/shayanxcyber/Vulnerability-Analysis-and-Defense-IDOR)**
 
@@ -75,17 +77,17 @@ and a defence-in-depth design using server-side object authorisation, least priv
 - **Security and investigation:** Burp Suite, Wireshark/TShark, Nmap, OpenSSL, Splunk and Metasploit; web access
   control, network analysis, PKI/TLS, vulnerability analysis and Windows/NTFS forensic artefacts.
 - **Systems and data:** Linux, Windows Server, VMware vSphere, Docker, PostgreSQL, MongoDB, SQL, Bash and PowerShell.
-- **Operational judgement:** diagnostic questioning, stakeholder communication, privacy-aware handling, control
-  selection, cost-benefit reasoning and clear audit-ready records.
+- **Working with people and problems:** diagnostic questioning, clear technical explanations, stakeholder
+  communication, privacy-aware handling and reliable audit-ready records.
 
 ## Current learning
 
-I am currently extending my knowledge through Cloud Security, Cybersecurity for Mobile Platforms, Privacy Preserving
-and Cybersecurity Capstone Studio. Current capstone work includes Python, Ubuntu, TShark/Wireshark and Scapy for
-evidence-linked PCAP analysis; mobile-security work includes Android Studio, Java/XML, Activities, Intents and runtime
-permissions.
+Right now I'm studying Cloud Security, Cybersecurity for Mobile Platforms, Privacy Preserving and Cybersecurity
+Capstone Studio. My current capstone work uses Python, Ubuntu, TShark/Wireshark and Scapy for evidence-linked PCAP
+analysis. In mobile security, I'm working with Android Studio, Java/XML, Activities, Intents, runtime permissions and
+emulator testing.
 
 ## Connect
 
-I am open to suitable Australian graduate, junior and security-adjacent technology opportunities. The best place to
-reach me is **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**.
+I'm open to Australian graduate, junior and security-adjacent technology opportunities. The best place to reach me is
+**[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**.
