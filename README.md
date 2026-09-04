@@ -1,113 +1,91 @@
-### Hi there, I'm Shayan Ali 👋
+# Shayan Ali
 
-<p align="center">
-  <img src="https://giphy.com/gifs/marty-culp-Y8ocCgwtdj29O" width="600" />
-</p>
+Final-year Bachelor of Cybersecurity student at the University of Technology Sydney, building at the intersection of
+secure software, technical operations and practical security analysis.
 
-I'm a second-year **Bachelor of Cybersecurity** student at the University of Technology Sydney. I'm driven by a fascination with how digital systems work, and more importantly, how they can be broken. My goal is to leverage that understanding from an offensive security perspective to help organisations build more resilient and secure systems.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayan-ali-776590339/)
+![Location](https://img.shields.io/badge/Based_in-Australia-2F855A?style=flat-square)
+![Opportunities](https://img.shields.io/badge/Open_to-Graduate_%26_Junior_Roles-7C3AED?style=flat-square)
 
-I believe in learning by doing, and my portfolio is a reflection of that philosophy, a collection of hands-on projects from analysing and defending against web vulnerabilities to building secure servers and private blockchains from scratch.
+## About
 
----
+I enjoy tracing a problem from the user experience down through application behaviour, data and security controls,
+then turning the result into something useful and maintainable. My recent experience at Zip combined regulated
+financial-services operations with an internal Software Developer trial, where I progressed from identifying a
+frontline workflow problem and building a JavaScript proof of concept to contributing Angular and TypeScript features
+through REST integrations, tests, merge requests and peer review.
 
-### 🚀 My Focus & Goals
+Alongside software delivery, my university work covers web access control, network traffic analysis, PKI and TLS,
+virtual infrastructure, database design, and digital investigations involving forensic-image validation, Windows and
+NTFS artefacts, timelines and cross-source evidence correlation.
 
-*   🎓 Deepening my knowledge through my **Bachelor of Cybersecurity** and the **Google Cybersecurity Professional Certificate**.
-*   💻 Applying theoretical concepts to hands-on projects, from building private blockchains to deploying secure cloud infrastructure.
-*   🔬 Focusing my self-study on penetration testing methodologies and tools in preparation for a career in ethical hacking.
+- **Bachelor of Cybersecurity, UTS** — final year, expected 2027
+- **GPA:** 6.60/7.00
+- **Dean's List:** 2025 and 2026
+- **Career interests:** cybersecurity, software engineering, security-adjacent technology and graduate programs
 
----
+## Selected work
 
-### 🛠️ My Tech Stack & Skills
+### LUNEA Commerce Platform
 
-This is a snapshot of the languages, tools, and technologies I'm proficient with through my university projects and self-study.
+[![LUNEA storefront](https://raw.githubusercontent.com/shayanxcyber/E-commerce-Fullstack-Website/main/docs/images/lunea-storefront.png)](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)
 
-<table>
-  <tr>
-    <td align="center" width="120">
-      <a href="#-cybersecurity-domains">
-        <img src="https://img.icons8.com/plasticine/100/000000/lock.png" width="48" height="48" alt="Cybersecurity" /><br>
-        <strong>Domains</strong>
-      </a>
-    </td>
-    <td align="center" width="120">
-      <a href="#-languages">
-        <img src="https://img.icons8.com/color/48/000000/source-code.png" width="48" height="48" alt="Code" /><br>
-        <strong>Languages</strong>
-      </a>
-    </td>
-    <td align="center" width="120">
-      <a href="#-tools--platforms">
-        <img src="https://img.icons8.com/color/48/000000/wrench.png" width="48" height="48" alt="Tools" /><br>
-        <strong>Tools & Platforms</strong>
-      </a>
-    </td>
-  </tr>
-</table>
+An individual full-stack commerce project with a polished React storefront, Express and MongoDB services, JWT
+authentication, server-enforced role and ownership checks, customer ordering and administrator workflows. Its public
+static demo uses clearly labelled synthetic in-browser data, while the repository preserves the complete local
+application.
 
-#### 🛡️ Cybersecurity Domains
-*   Web App Security (OWASP Top 10)
-*   Network Security & Traffic Analysis
-*   System Hardening (Blue Team)
-*   Vulnerability Assessment
-*   Applied Cryptography & PKI
-*   Cloud & Virtualisation Security
+**[Open the live demo](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)** ·
+**[View the source and architecture](https://github.com/shayanxcyber/E-commerce-Fullstack-Website)**
 
-#### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### IDOR Vulnerability Analysis and Defence
 
-#### 🔧 Tools & Platforms
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF7A00?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white)
-![OpenSSL](https://img.shields.io/badge/OpenSSL-7289DA?style=for-the-badge&logo=openssl&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+A co-authored security case study analysing an Insecure Direct Object Reference vulnerability, its business impact
+and a defence-in-depth design using server-side object authorisation, least privilege and verification controls.
 
----
+**[View the project and report](https://github.com/shayanxcyber/Vulnerability-Analysis-and-Defense-IDOR)**
 
-### 📂 My GitHub Portfolio
+### Supporting evidence
 
-Here is a curated selection of my best work. Each project has its own repository with a detailed `README` explaining the process and skills involved.
+| Project | What it shows |
+| --- | --- |
+| [PKI and HTTPS Server](https://github.com/shayanxcyber/HTTPS-Server-PKI-Project) | Private CA construction, X.509 certificate issuance, SSH keys, TLS deployment and validation in a disposable lab. |
+| [VMware vSphere Lab Series](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects) | Hands-on ESXi, vCenter, iSCSI/VMFS, virtual networking, vMotion and High Availability labs. |
+| [Real Estate Database Design](https://github.com/shayanxcyber/Real-Estate-Database-Design-Project) | A two-person conceptual ERD and focused PostgreSQL implementation with documented design boundaries. |
 
-⭐ **Proudest Project: System Security - Blue Team Vulnerability Analysis**  
-*A hands-on project analysing an Insecure Direct Object Reference (IDOR) vulnerability and designing a defense-in-depth strategy using OWASP principles and Burp Suite.*  
-**[➡️ View Project & Report](https://github.com/your-username/Vulnerability-Analysis-and-Defense-IDOR)**
+## Technology and capabilities
 
----
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 
-*   **🔐 Cryptography: Secure HTTPS Server & PKI**
-    *   *Created a private Certificate Authority (CA) with OpenSSL to issue a valid TLS certificate and deploy a secure HTTPS web server.*
-    *   **[View Project & Report](https://github.com/shayanxcyber/HTTPS-Server-PKI-Project)**
+- **Software delivery:** Angular, RxJS, React, Node.js, Express, NestJS, REST APIs, Swagger/OpenAPI, Jasmine, Karma,
+  GitHub Actions and GitLab merge-request workflows.
+- **Security and investigation:** Burp Suite, Wireshark/TShark, Nmap, OpenSSL, Splunk and Metasploit; web access
+  control, network analysis, PKI/TLS, vulnerability analysis and Windows/NTFS forensic artefacts.
+- **Systems and data:** Linux, Windows Server, VMware vSphere, Docker, PostgreSQL, MongoDB, SQL, Bash and PowerShell.
+- **Operational judgement:** diagnostic questioning, stakeholder communication, privacy-aware handling, control
+  selection, cost-benefit reasoning and clear audit-ready records.
 
-*   **⛓️ Cryptography: Private Ethereum Blockchain**
-    *   *Deployed a private Proof-of-Work Ethereum blockchain from scratch using `geth`, including creating a genesis block and executing transactions.*
-    *   **[View Project & Report](https://github.com/shayanxcyber/Private-Ethereum-Blockchain-Project)**
+## Current learning
 
-*   **☁️ Cloud Infrastructure: VMware vSphere Labs**
-    *   *A collection of labs building a virtual data center with ESXi, vCenter, iSCSI, vMotion, and High Availability.*
-    *   **[View All Labs](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects)**
+I am currently extending my knowledge through Cloud Security, Cybersecurity for Mobile Platforms, Privacy Preserving
+and Cybersecurity Capstone Studio. Current capstone work includes Python, Ubuntu, TShark/Wireshark and Scapy for
+evidence-linked PCAP analysis; mobile-security work includes Android Studio, Java/XML, Activities, Intents and runtime
+permissions.
 
-*   **🗃️ Database Design: Real Estate Platform**
-    *   *Designed and implemented a relational database from scratch, including ERD modeling and SQL implementation.*
-    *   **[View Project & SQL Schema](https://github.com/shayanxcyber/Real-Estate-Database-Design-Project)**
-    
-*   **📚 All University Coursework**
-    *   *A central repository containing summaries and links to all major projects from my degree.*
-    *   **[View University Portfolio](https://github.com/shayanxcyber/University-Cybersecurity-Projects)**
+## Connect
 
----
-
-### 🔗 Let's Connect!
-
-I'm always open to connecting with fellow students, professionals, and recruiters. Feel free to reach out!
-
-<p align="left">
-<a href="https://www.linkedin.com/in/shayan-ali-776590339/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shayan-ali-linkedin" height="30" width="40" /></a>
-</p>
+I am open to suitable Australian graduate, junior and security-adjacent technology opportunities. The best place to
+reach me is **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**.
