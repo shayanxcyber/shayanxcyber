@@ -28,7 +28,6 @@ Four integration tests pass on Linux and Windows.
 | [REA](https://github.com/morluto/rea/pull/1829) | Reuse parsed module URLs during matching. | Open PR |
 | [Instructor](https://github.com/567-labs/instructor/pull/2772) | Preserve validation details while suppressing documentation links. | Open PR |
 | [Qdrant client](https://github.com/qdrant/qdrant-client/pull/1563) | Replay complete migration batches after upload failures. | Open PR |
-| [faster-whisper](https://github.com/SYSTRAN/faster-whisper/pull/1668) | Use binary search for speech timestamp boundaries. | Closed, unmerged |
 
 ## About
 
