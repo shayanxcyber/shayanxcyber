@@ -1,12 +1,34 @@
 # Shayan Ali
 
-I'm a final-year Bachelor of Cybersecurity student at the University of Technology Sydney. I'm interested in both
-cybersecurity and software engineering, especially work where I can understand how a system behaves, find what is
-going wrong and improve it.
+I'm a final-year Bachelor of Cybersecurity student at the University of Technology Sydney, interested in software
+engineering, model systems, developer tools and cybersecurity. I build and investigate systems, find what is going
+wrong and improve how they behave.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayan-ali-776590339/)
 ![Location](https://img.shields.io/badge/Based_in-Australia-2F855A?style=flat-square)
 ![Opportunities](https://img.shields.io/badge/Open_to-Graduate_%26_Junior_Roles-7C3AED?style=flat-square)
+
+## Recent engineering
+
+### Reliable Replay Lab
+
+[![Checks](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml/badge.svg)](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml)
+
+A runnable Python/SQLite experiment for stable operation keys, retries and crash recovery. Fictional fixtures show
+six effects from repeated execution versus two with durable operation identities. Further experiments recover from
+transient failures, an uncertain response and an actual worker crash without adding duplicate destination effects.
+Four integration tests pass on Linux and Windows.
+
+**[Run the demo and inspect the architecture](https://github.com/shayanxcyber/reliable-replay-lab)**
+
+## Upstream contributions
+
+| Project | Change | Status |
+| --- | --- | --- |
+| [REA](https://github.com/morluto/rea/pull/1829) | Reuse parsed module URLs during matching. | Open PR |
+| [Instructor](https://github.com/567-labs/instructor/pull/2772) | Preserve validation details while suppressing documentation links. | Open PR |
+| [Qdrant client](https://github.com/qdrant/qdrant-client/pull/1563) | Replay complete migration batches after upload failures. | Open PR |
+| [faster-whisper](https://github.com/SYSTRAN/faster-whisper/pull/1668) | Use binary search for speech timestamp boundaries. | Closed, unmerged |
 
 ## About
 
