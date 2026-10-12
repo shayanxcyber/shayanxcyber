@@ -10,6 +10,24 @@ wrong and improve how they behave.
 
 ## Recent engineering
 
+### Evidence Atlas
+
+[![Evidence Atlas — Follow the source](https://raw.githubusercontent.com/shayanxcyber/evidence-atlas/main/docs/images/atlas-cover.svg)](https://github.com/shayanxcyber/evidence-atlas)
+
+[![Checks](https://github.com/shayanxcyber/evidence-atlas/actions/workflows/checks.yml/badge.svg)](https://github.com/shayanxcyber/evidence-atlas/actions/workflows/checks.yml)
+
+A local workspace for engineering evidence that changes or disagrees. Import sources, trace answers to retained
+versions and line numbers, compare edits, and save conclusions with supporting and contradictory passages.
+The included investigation follows a fictional rollout whose steady test passes while burst traffic exposes a backlog.
+
+React and TypeScript handle the investigation interface; Python, FastAPI and SQLite/FTS5 handle source identity,
+versioned retrieval and evaluation. The release includes 33 passing backend/interface tests, an engineering case study
+and a 32-second motion film built from the app's React components with an original score.
+
+**[Explore the investigation and watch the film](https://github.com/shayanxcyber/evidence-atlas)** ·
+**[Read the engineering case study](https://github.com/shayanxcyber/evidence-atlas/blob/main/docs/CASE-STUDY.md)** ·
+**[Get the release](https://github.com/shayanxcyber/evidence-atlas/releases/tag/v0.1.0)**
+
 ### Reliable Replay Lab
 
 [![Checks](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml/badge.svg)](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml)
@@ -25,9 +43,11 @@ Four integration tests pass on Linux and Windows.
 
 | Project | Change | Status |
 | --- | --- | --- |
-| [REA](https://github.com/morluto/rea/pull/1829) | Reuse parsed module URLs during matching. | Open PR |
+| [REA](https://github.com/morluto/rea/pull/1829) | Reuse parsed module URLs during matching. | Merged |
 | [Instructor](https://github.com/567-labs/instructor/pull/2772) | Preserve validation details while suppressing documentation links. | Open PR |
 | [Qdrant client](https://github.com/qdrant/qdrant-client/pull/1563) | Replay complete migration batches after upload failures. | Open PR |
+| [Hugging Face Hub](https://github.com/huggingface/huggingface_hub/pull/5142) | Correct interactive subprocess examples, including runtime docstring escapes. | Open PR |
+| [smolagents](https://github.com/huggingface/smolagents/pull/2964) | Keep rate limiting stable when the system clock changes. | Open PR |
 
 ## About
 
