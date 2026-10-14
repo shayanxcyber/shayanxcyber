@@ -6,11 +6,7 @@ Cybersecurity at UTS · Australia · **[LinkedIn](https://www.linkedin.com/in/sh
 ## Rank Lab
 
 <a href="https://shayanxcyber.github.io/rank-lab/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/rank-lab-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/rank-lab-light.svg">
-    <img src="assets/rank-lab-light.svg" width="100%" alt="Rank Lab: a real retrieval study with 300 queries, 53 gains, 27 regressions and 220 unchanged outcomes.">
-  </picture>
+  <img src="assets/rank-lab-light.svg" width="100%" alt="Rank Lab: a real retrieval study with 300 queries, 53 gains, 27 regressions and 220 unchanged outcomes.">
 </a>
 
 A complete retrieval experiment: fine-tune MiniLM, resume an interrupted run, select a checkpoint
