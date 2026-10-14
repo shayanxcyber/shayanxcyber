@@ -1,134 +1,69 @@
 # Shayan Ali
 
-I'm a final-year Bachelor of Cybersecurity student at the University of Technology Sydney, interested in software
-engineering, model systems, developer tools and cybersecurity. I build and investigate systems, find what is going
-wrong and improve how they behave.
+I build software for retrieval experiments, developer workflows and security.
+Cybersecurity at UTS · Australia · **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shayan-ali-776590339/)
-![Location](https://img.shields.io/badge/Based_in-Australia-2F855A?style=flat-square)
-![Opportunities](https://img.shields.io/badge/Open_to-Graduate_%26_Junior_Roles-7C3AED?style=flat-square)
+## Rank Lab
 
-## Recent engineering
+<a href="https://shayanxcyber.github.io/rank-lab/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rank-lab-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/rank-lab-light.svg">
+    <img src="assets/rank-lab-light.svg" width="100%" alt="Rank Lab: a real retrieval study with 300 queries, 53 gains, 27 regressions and 220 unchanged outcomes.">
+  </picture>
+</a>
 
-### Evidence Atlas
+A complete retrieval experiment: fine-tune MiniLM, resume an interrupted run, select a checkpoint
+on validation and inspect every reserved query against both pretrained and keyword-search baselines.
 
-[![Evidence Atlas — Follow the source](https://raw.githubusercontent.com/shayanxcyber/evidence-atlas/main/docs/images/atlas-cover.svg)](https://github.com/shayanxcyber/evidence-atlas)
+**22.7M trainable parameters · 3 epochs · 78 updates · +3.00 pp nDCG@10 over pretrained.**
+The explorer keeps all 53 gains and 27 regressions visible. The result is from one SciFact study;
+the repository includes the Python workflow to run that study again.
 
-[![Checks](https://github.com/shayanxcyber/evidence-atlas/actions/workflows/checks.yml/badge.svg)](https://github.com/shayanxcyber/evidence-atlas/actions/workflows/checks.yml)
+**[Open the live explorer ↗](https://shayanxcyber.github.io/rank-lab/)** ·
+[Source](https://github.com/shayanxcyber/rank-lab) ·
+[Engineering decisions](https://github.com/shayanxcyber/rank-lab/blob/main/docs/CASE-STUDY.md) ·
+[15-second film](https://github.com/shayanxcyber/rank-lab/releases/download/v0.1.0/rank-lab.mp4)
 
-A local workspace for engineering evidence that changes or disagrees. Import sources, trace answers to retained
-versions and line numbers, compare edits, and save conclusions with supporting and contradictory passages.
-The included investigation follows a fictional rollout whose steady test passes while burst traffic exposes a backlog.
+<sub>Python · PyTorch · React · TypeScript</sub>
 
-React and TypeScript handle the investigation interface; Python, FastAPI and SQLite/FTS5 handle source identity,
-versioned retrieval and evaluation. The release includes 33 passing backend/interface tests, an engineering case study
-and a 32-second motion film built from the app's React components with an original score.
+## Evidence Atlas
 
-**[Explore the investigation and watch the film](https://github.com/shayanxcyber/evidence-atlas)** ·
-**[Read the engineering case study](https://github.com/shayanxcyber/evidence-atlas/blob/main/docs/CASE-STUDY.md)** ·
-**[Get the release](https://github.com/shayanxcyber/evidence-atlas/releases/tag/v0.1.0)**
+An investigation workspace for engineering sources that change or disagree. Trace passages to
+retained versions and line numbers, compare revisions, and keep supporting and contradictory
+evidence attached to a conclusion. Includes a runnable fictional investigation and retrieval checks.
 
-### Reliable Replay Lab
+[Explore the project](https://github.com/shayanxcyber/evidence-atlas) ·
+[Case study](https://github.com/shayanxcyber/evidence-atlas/blob/main/docs/CASE-STUDY.md) ·
+[32-second film](https://github.com/shayanxcyber/evidence-atlas/releases/download/v0.1.0/evidence-atlas.mp4)
 
-[![Checks](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml/badge.svg)](https://github.com/shayanxcyber/reliable-replay-lab/actions/workflows/checks.yml)
+<sub>React · TypeScript · Python · FastAPI · SQLite / FTS5</sub>
 
-A runnable Python/SQLite experiment for stable operation keys, retries and crash recovery. Fictional fixtures show
-six effects from repeated execution versus two with durable operation identities. Further experiments recover from
-transient failures, an uncertain response and an actual worker crash without adding duplicate destination effects.
-Four integration tests pass on Linux and Windows.
+### More built work
 
-**[Run the demo and inspect the architecture](https://github.com/shayanxcyber/reliable-replay-lab)**
+- **[Reliable Replay Lab](https://github.com/shayanxcyber/reliable-replay-lab)** — Python/SQLite experiments for retries, stable operation identities and recovery after a worker crash.
+- **[LUNEA Commerce](https://github.com/shayanxcyber/E-commerce-Fullstack-Website)** — an individual React/Express/MongoDB project with authentication, access controls and customer/admin workflows. [Live demo ↗](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)
 
-## Upstream contributions
+## Selected open-source contributions
 
-| Project | Change | Status |
-| --- | --- | --- |
-| [REA](https://github.com/morluto/rea/pull/1829) | Reuse parsed module URLs during matching. | Merged |
-| [Instructor](https://github.com/567-labs/instructor/pull/2772) | Preserve validation details while suppressing documentation links. | Open PR |
-| [Qdrant client](https://github.com/qdrant/qdrant-client/pull/1563) | Replay complete migration batches after upload failures. | Open PR |
-| [Hugging Face Hub](https://github.com/huggingface/huggingface_hub/pull/5142) | Correct interactive subprocess examples, including runtime docstring escapes. | Open PR |
-| [smolagents](https://github.com/huggingface/smolagents/pull/2964) | Keep rate limiting stable when the system clock changes. | Open PR |
+- **[Qdrant client #1563](https://github.com/qdrant/qdrant-client/pull/1563) · Merged** — preserve complete migration batches when a failed upload consumes an iterator.
+- **[REA #1829](https://github.com/morluto/rea/pull/1829) · Merged** — reuse parsed module URLs during matching.
 
-## About
+## Background
 
-I've spent years building, upgrading and troubleshooting PCs, and I tend to learn by following a problem until I
-understand what the system is actually doing. That same practical approach now carries across Windows and Linux,
-networking, web applications, security and code.
+UTS Bachelor of Cybersecurity, expected 2027 · **GPA 6.60/7.00** · **Dean's List 2025 & 2026**.
+At Zip, I built a JavaScript proof of concept and worked on Angular/TypeScript features during
+an internal Software Developer trial, alongside experience in regulated financial-services operations.
 
-My recent experience at Zip let me apply that approach in two settings: regulated financial-services operations and
-an internal Software Developer trial. I identified a recurring frontline problem, built a JavaScript proof of concept
-and then worked on Angular and TypeScript features using REST APIs, tests, merge requests and peer review.
+**Working with:** Python/PyTorch, TypeScript, React/Angular, REST APIs, SQL, Linux and automated tests.
+Open to graduate and junior opportunities in software, model engineering and cybersecurity in Australia.
 
-At university, I have worked across web access control, network traffic analysis, PKI and TLS, virtual infrastructure,
-database design, and digital investigations using forensic images, hashes, Windows and NTFS artefacts, timelines and
-evidence from multiple sources. I learn best by building something I can test, inspect and explain.
+<details>
+<summary>Security, infrastructure and earlier projects</summary>
 
-- **Bachelor of Cybersecurity, UTS** — final year, expected 2027
-- **GPA:** 6.60/7.00
-- **Dean's List:** 2025 and 2026
-- **Career interests:** cybersecurity, software engineering, security-adjacent technology and graduate programs
+- [IDOR analysis and defence](https://github.com/shayanxcyber/Vulnerability-Analysis-and-Defense-IDOR) — a two-person investigation of object-level access control and layered defences.
+- [PKI and HTTPS](https://github.com/shayanxcyber/HTTPS-Server-PKI-Project) — a private CA, X.509 certificates and TLS trust validation in a lab.
+- [VMware vSphere labs](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects) — ESXi, storage, networking, vMotion and High Availability.
+- [Database design](https://github.com/shayanxcyber/Real-Estate-Database-Design-Project) — a two-person ERD and PostgreSQL implementation.
 
-## Selected work
-
-### LUNEA Commerce Platform
-
-[![LUNEA storefront](https://raw.githubusercontent.com/shayanxcyber/E-commerce-Fullstack-Website/main/docs/images/lunea-storefront.png)](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)
-
-I built this full-stack commerce project individually. It combines a React storefront with Express and MongoDB, JWT
-authentication, server-enforced role and ownership checks, customer ordering and administrator workflows. The public
-demo uses clearly labelled synthetic browser data; the repository contains the complete local application.
-
-**[Open the live demo](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)** ·
-**[View the source and architecture](https://github.com/shayanxcyber/E-commerce-Fullstack-Website)**
-
-### IDOR Vulnerability Analysis and Defence
-
-In this two-person project, we analysed an Insecure Direct Object Reference vulnerability, explained its business
-impact and designed layered controls around server-side object authorisation, least privilege and verification.
-
-**[View the project and report](https://github.com/shayanxcyber/Vulnerability-Analysis-and-Defense-IDOR)**
-
-### Supporting evidence
-
-| Project | What it shows |
-| --- | --- |
-| [PKI and HTTPS Server](https://github.com/shayanxcyber/HTTPS-Server-PKI-Project) | Private CA construction, X.509 certificate issuance, SSH keys, TLS deployment and validation in a disposable lab. |
-| [VMware vSphere Lab Series](https://github.com/shayanxcyber/VMware-vSphere-Lab-Projects) | Hands-on ESXi, vCenter, iSCSI/VMFS, virtual networking, vMotion and High Availability labs. |
-| [Real Estate Database Design](https://github.com/shayanxcyber/Real-Estate-Database-Design-Project) | A two-person conceptual ERD and focused PostgreSQL implementation with documented design boundaries. |
-
-## Technology and capabilities
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-
-- **Software delivery:** Angular, RxJS, React, Node.js, Express, NestJS, REST APIs, Swagger/OpenAPI, Jasmine, Karma,
-  GitHub Actions and GitLab merge-request workflows.
-- **Security and investigation:** Burp Suite, Wireshark/TShark, Nmap, OpenSSL, Splunk and Metasploit; web access
-  control, network analysis, PKI/TLS, vulnerability analysis and Windows/NTFS forensic artefacts.
-- **Systems and data:** Linux, Windows Server, VMware vSphere, Docker, PostgreSQL, MongoDB, SQL, Bash and PowerShell.
-- **Working with people and problems:** diagnostic questioning, clear technical explanations, stakeholder
-  communication, privacy-aware handling and reliable audit-ready records.
-
-## Current learning
-
-Right now I'm studying Cloud Security, Cybersecurity for Mobile Platforms, Privacy Preserving and Cybersecurity
-Capstone Studio. My current capstone work uses Python, Ubuntu, TShark/Wireshark and Scapy for evidence-linked PCAP
-analysis. In mobile security, I'm working with Android Studio, Java/XML, Activities, Intents, runtime permissions and
-emulator testing.
-
-## Connect
-
-I'm open to Australian graduate, junior and security-adjacent technology opportunities. The best place to reach me is
-**[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**.
+</details>
