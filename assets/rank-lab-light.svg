@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
-<title id="title">Rank Lab — follow the ranking</title>
+<title id="title">Rank Lab — MiniLM fine-tuning on SciFact</title>
 <desc id="desc">Actual 300-query study: 53 gains, 27 regressions and 220 unchanged, fine-tuned versus pretrained nDCG at ten.</desc>
 <rect width="1280" height="360" rx="4" fill="#f3f5ff"/>
-<path d="M56 66H1224M620 94V284M56 304H566" stroke="#cbd3ec" fill="none"/>
+<path d="M620 78V286" stroke="#cbd3ec" fill="none"/>
 <g font-family="Arial,Helvetica,sans-serif" fill="#53627f" font-size="13" letter-spacing="2">
-<text x="56" y="41">SELECTED WORK / 01</text><text x="1224" y="41" text-anchor="end">RETRIEVAL · TRAINING · EVALUATION</text></g>
+</g>
 <g font-family="Arial,Helvetica,sans-serif" fill="#2446ed" font-size="109" letter-spacing="-6" font-weight="800">
 <text x="49" y="172">RANK LAB.</text></g>
 <g font-family="Arial,Helvetica,sans-serif" fill="#192344" font-size="28" letter-spacing="-0.6">
-<text x="56" y="222">Train. Resume. Follow the ranking.</text></g>
+<text x="56" y="222">MiniLM fine-tuning on SciFact</text></g>
 <g font-family="Arial,Helvetica,sans-serif" fill="#53627f" font-size="17">
 <text x="56" y="270">22.7M trainable parameters / 78 updates</text>
-<text x="56" y="333">ONE STUDY. EVERY QUERY IN VIEW.</text>
-<text x="690" y="99">300 reserved queries · fine-tuned vs pretrained</text></g>
+
+<text x="690" y="99">Fine-tuned vs pretrained · nDCG@10</text></g>
 <rect x="690" y="118" width="13" height="12" rx="1.5" fill="#bf653e"/>
 <rect x="707" y="118" width="13" height="12" rx="1.5" fill="#bf653e"/>
 <rect x="724" y="118" width="13" height="12" rx="1.5" fill="#bf653e"/>

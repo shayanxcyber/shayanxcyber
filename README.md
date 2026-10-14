@@ -1,7 +1,7 @@
 # Shayan Ali
 
-I build software for retrieval experiments, developer workflows and security.
-Cybersecurity at UTS · Australia · **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**
+I'm a Cybersecurity student at UTS working on retrieval models, software and security projects.
+Australia · **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**
 
 ## Rank Lab
 
@@ -9,8 +9,9 @@ Cybersecurity at UTS · Australia · **[LinkedIn](https://www.linkedin.com/in/sh
   <img src="assets/rank-lab-light.svg" width="100%" alt="Rank Lab: a real retrieval study with 300 queries, 53 gains, 27 regressions and 220 unchanged outcomes.">
 </a>
 
-A complete retrieval experiment: fine-tune MiniLM, resume an interrupted run, select a checkpoint
-on validation and inspect every reserved query against both pretrained and keyword-search baselines.
+Rank Lab fine-tunes MiniLM on SciFact and compares its search results with pretrained and
+keyword-search baselines. It records checkpoints, resumes interrupted training and lets you
+inspect the documents behind each query’s score.
 
 **22.7M trainable parameters · 3 epochs · 78 updates · +3.00 pp nDCG@10 over pretrained.**
 The explorer keeps all 53 gains and 27 regressions visible. The result is from one SciFact study;
@@ -35,12 +36,12 @@ evidence attached to a conclusion. Includes a runnable fictional investigation a
 
 <sub>React · TypeScript · Python · FastAPI · SQLite / FTS5</sub>
 
-### More built work
+### Other projects
 
 - **[Reliable Replay Lab](https://github.com/shayanxcyber/reliable-replay-lab)** — Python/SQLite experiments for retries, stable operation identities and recovery after a worker crash.
 - **[LUNEA Commerce](https://github.com/shayanxcyber/E-commerce-Fullstack-Website)** — an individual React/Express/MongoDB project with authentication, access controls and customer/admin workflows. [Live demo ↗](https://shayanxcyber.github.io/E-commerce-Fullstack-Website/)
 
-## Selected open-source contributions
+## Open-source contributions
 
 - **[Qdrant client #1563](https://github.com/qdrant/qdrant-client/pull/1563) · Merged** — preserve complete migration batches when a failed upload consumes an iterator.
 - **[REA #1829](https://github.com/morluto/rea/pull/1829) · Merged** — reuse parsed module URLs during matching.
