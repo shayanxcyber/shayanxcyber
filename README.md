@@ -1,7 +1,8 @@
 # Shayan Ali
 
-I'm a Cybersecurity student at UTS with experience across software development, security,
-networking and infrastructure.
+I'm into software, AI and security. I like building things, trying out ideas and figuring out how they work.
+
+Have a look at what I've been working on below.
 Australia · **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**
 
 ## Rank Lab
