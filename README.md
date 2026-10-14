@@ -1,6 +1,7 @@
 # Shayan Ali
 
-I'm a Cybersecurity student at UTS working on retrieval models, software and security projects.
+I'm a Cybersecurity student at UTS with experience across software development, security,
+networking and infrastructure.
 Australia · **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**
 
 ## Rank Lab
@@ -53,7 +54,7 @@ At Zip, I built a JavaScript proof of concept and worked on Angular/TypeScript f
 an internal Software Developer trial, alongside experience in regulated financial-services operations.
 
 **Working with:** Python/PyTorch, TypeScript, React/Angular, REST APIs, SQL, Linux and automated tests.
-Open to graduate and junior opportunities in software, model engineering and cybersecurity in Australia.
+Open to graduate and junior technology roles in Australia.
 
 <details>
 <summary>Security, infrastructure and earlier projects</summary>
