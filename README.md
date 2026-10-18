@@ -5,6 +5,24 @@ I'm into software, AI and security. I like building things, trying out ideas and
 Have a look at what I've been working on below.
 Australia · **[LinkedIn](https://www.linkedin.com/in/shayan-ali-776590339/)**
 
+## Checkpoint
+
+I built Checkpoint to investigate failed Python workflows without losing the inputs and
+responses that explain the failure. Record a run, replay supported HTTP calls, branch with a
+changed input, and compare the result while keeping the original run intact.
+
+The Go engine runs the workflows, a Python SDK connects your code, and the interface brings
+the execution path, attempts and JSON differences together. Run history persists in SQLite;
+selected code and recordings can be exported as an executable reproduction. Windows and
+Linux releases include the interface, examples and SDK.
+
+**[Try the recorded investigation ↗](https://shayanxcyber.github.io/checkpoint/)** ·
+[Source](https://github.com/shayanxcyber/checkpoint) ·
+[Architecture](https://github.com/shayanxcyber/checkpoint/blob/main/docs/architecture.md) ·
+[Watch demo](https://github.com/shayanxcyber/checkpoint#readme-ov-file)
+
+<sub>Go · Python · React · TypeScript · SQLite</sub>
+
 ## Rank Lab
 
 <a href="https://shayanxcyber.github.io/rank-lab/">
